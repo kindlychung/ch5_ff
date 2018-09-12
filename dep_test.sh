@@ -5,5 +5,6 @@ then
 	echo "Link alias 'database' was not set!"
 	exit
 else 
+	echo "$DATABASE_PORT"
 	exec "$@"
 fi
